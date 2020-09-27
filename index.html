@@ -48,7 +48,19 @@
         </h2>
         <div class="unit-content">
           <div class="item">
-            <div class="item-title">手机</div>
+            <div class="item-title">个人首页</div>
+            <div class="item-content">
+              <a href="https://www.yuque.com/fepomf" target="_blank">gloomykevin.com</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-title">codepen首页</div>
+            <div class="item-content">
+              <a href="https://codepen.io/gloomykevin" target="_blank">codepen.io</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-title">手机(同微信)</div>
             <div class="item-content">
               <a href="tel:13970856720" target="_blank">13970856720</a>
             </div>
@@ -57,22 +69,6 @@
             <div class="item-title">邮箱</div>
             <div class="item-content">
               <a href="mailto:1293535916@qq.com" target="_blank">1293535916@qq.com</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="item-title">主页</div>
-            <div class="item-content">
-              <a href="https://gloomykevin.github.io/" target="_blank">gloomykevin.com</a>
-            </div>
-          </div>
-          <div class="item">
-            <div class="item-title">微信</div>
-            <div class="item-content">13970856720</div>
-          </div>
-          <div class="item">
-            <div class="item-title">Github</div>
-            <div class="item-content">
-              <a href="https://github.com/gloomykevin" target="_blank">github.com/gloomyKevin</a>
             </div>
           </div>
         </div>
@@ -118,7 +114,7 @@
                   了解浏览器工作原理, 以及一部分V8相关知识
                 </li>
                 <li class="item-intro">
-                  有较长时间的DevTools使用经验
+                  有DevTools的使用经验和心得
                 </li>
                 <!-- <li class="item-intro">
                     遵循 ESlint 标准，能编写严格、符合规范的代码
@@ -132,7 +128,7 @@
               <!-- Webpack Babel Parcel Gulp -->
               <ul class="item-intro-wrapper">
                 <li class="item-intro">
-                  使用过 Travis CI 和 jekins, 有部署基础的持续集成服务的经验
+                  使用过 Travis CI , 有部署基础的持续集成服务的经验
                 </li>
               </ul>
             </div>
@@ -143,7 +139,7 @@
               <!-- Vue React -->
               <ul class="item-intro-wrapper">
                 <li class="item-intro">
-                  熟悉 React, 并了解一部分框架的底层原理，能在自己的代码中借鉴其思想和风格, 并模仿实现主要功能
+                  了解 React, 并粗略了解一部分框架的底层原理，能在自己的代码中借鉴其思想和风格, 并模仿实现主要功能
                 </li>
               </ul>
             </div>
@@ -157,17 +153,6 @@
                   <li class="item-intro">
                     使用过 styled-components，在项目中实践过CSS IN
                     JS的开发模式和思想
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="item">
-              <div class="item-title">前端数据可视化</div>
-              <div class="item-content">
-                <!-- ECharts D3 -->
-                <ul class="item-intro-wrapper">
-                  <li class="item-intro">
-                    参考并使用 ECharts 库完成小demo
                   </li>
                 </ul>
               </div>
@@ -249,13 +234,10 @@
                   看到好的英文技术文章,喜欢翻译并进行分享在社区,参与过掘金翻译计划。
                 </li>
                 <li class="item-intro">
-                  曾经为Vuepress贡献自己的主题, 并实践和总结了性能优化的思路。
+                  曾经为Vuepress贡献自己的主题, 并实践和总结了一些性能优化的思路。
                 </li>
                 <li class="item-intro">
                   持续关注最新技术并投身于开发者行列, 比如为最近发布的鸿蒙OS开发demo。
-                </li>
-                <li class="item-intro">
-                  将自己思考和设计的小组件发布在npm, 如。
                 </li>
               </ul>
             </div>
@@ -322,11 +304,12 @@
                   选择使用<strong>Storybook</strong>进行组件文档化, 过程中熟悉了stories的组织形式以及全局样式的引入和修改
                 </li>
                 <li class="item-intro">
-                  熟悉了<strong>React Router</strong>进行路由控制,并且通过<strong>React Spring</strong>实现页面动画
+                  在页面组织上, 熟悉了<strong>React Router</strong>进行路由控制,并且通过<strong>React Spring</strong>实现页面动画
                 </li>
                 <li class="item-intro">
-                  采用<strong>styled-components</strong>管理样式组件,具有良好的扩展性
-                  过程中实践了<strong>CSS-IN-JS</strong>的开发理念
+                  起初采用<strong> CSS modules </strong>的方案, 但因为其不方便动态修改样式时的缺陷,
+                  最终换用<strong>styled-components</strong>管理样式组件, 具有良好的扩展性
+                  同时实践了<strong>CSS-IN-JS</strong>的开发理念
                 </li>
                 <li class="item-intro">
                   熟悉了<strong>React组件化</strong>的开发思想,开发过程中有思考地重构,不断精简和抽取代码,力求达到最好的复用性
@@ -346,7 +329,9 @@
             <div class="item-content">
               <ul class="item-intro-wrapper">
                 <li class="item-intro">
-                  纯JavaScript开发, 但没有继承任何的JavaScript内置对象, 通过统一的<strong> 全局接口 </strong>, 可以让自己可以更方便地在JavaScript中实现<strong>
+                  开发目的是建立一个自用的的函数库, 并且目标是能够后续进行方便的扩充。 纯JavaScript开发, 但没有继承任何的JavaScript内置对象, 通过统一的<strong> 全局接口
+                  </strong>,
+                  可以让自己可以更方便地在JavaScript中实现<strong>
                     函数式编程 </strong>
                 </li>
                 <li class="item-intro">
@@ -355,14 +340,13 @@
                 </li>
                 <li class="item-intro">
                   在常规API之上,设计一系列<strong> 辅助函数 </strong>, 举两例: 1.借鉴jQuery的设计思想,封装一个简易的<strong> template模板引擎 </strong>;
-                  2.用于解决鼠标移动等高触发频率事件中, 请求和响应不匹配的throttle函数 (区别于debounce防抖,
-                  throttle实现了<strong> 频率控制 </strong>),
+                  2.
                 </li>
                 <li class="item-intro">
                   参考underscore中 <strong> mixin </strong>的设计思想, 实现用户<strong> 主动添加扩展方法 </strong>的功能
                 </li>
                 <li class="item-intro">
-                  为项目中的工具函数添加大量使用实例, 并进行了详细的说明, 帮助使用者更快更好地上手
+                  为项目中的工具函数添加大量使用实例, 并进行了详细的说明, 帮助后续使用者更快更好地上手
                 </li>
                 <li class="item-intro">
                   预计为项目添加可视化演示以及ES6的语法实现, 学习吸收<strong> lodash </strong>的设计思想并运用在项目中

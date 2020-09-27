@@ -152,15 +152,15 @@ strong {
 .side .unit.info .unit-content .item-title, .side .unit.contact .unit-content .item-title {
   width: 30%;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 0;
   line-height: 20px;
 }
 
 .side .unit-content .item .item-content {
-  font-size: 12px;
+  font-size: 14px;
   color: #777;
-  line-height: 20px;
+  line-height: 23px;
 }
 
 .side .unit.info .unit-content .item-content, .side .unit.contact .unit-content .item-content {
